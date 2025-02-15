@@ -1,18 +1,23 @@
 import React from 'react'
-import Search from './components/Search'
-import { useState } from 'react'
-
+// import Search from './components/Search'
+import Search from './Pages/Search'
+// import { useState } from 'react'
+import Step3 from './Pages/Step3'
+import DepartmentForm from './Pages/DepartmentForm'
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState('')
+  // const [searchTerm, setSearchTerm] = useState('')
   return (
     <main>
     <div  className='pattern'/>
       <div className='wrapper'>
         <header>
-          <img src="./hero.png" alt="Hero Banner" />
-          <h1>Find <span className='text-gradient'>Movies</span>You'll Enjoy without the hassle</h1>
+          {/* <img src="./hero.png" alt="Hero Banner" /> */}
+          
         </header>
-        <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+        {/* <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} /> */}
+        <Step3 />
+        <Search />
+        <DepartmentForm />
       </div>
     </main>
     
