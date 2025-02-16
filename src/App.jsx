@@ -1,9 +1,12 @@
 import React from 'react'
+import ResourceAllocation from './Pages/ResourseAllocation'
+// import BudgetAllocation from './Pages/BudgetAllocation'
+
 // import Search from './components/Search'
-import Search from './Pages/Search'
+// import Search from './Pages/Search'
 // import { useState } from 'react'
-import Step3 from './Pages/Step3'
-import DepartmentForm from './Pages/DepartmentForm'
+// import Step3 from './Pages/Step3'
+// import DepartmentForm from './Pages/DepartmentForm'
 const App = () => {
   // const [searchTerm, setSearchTerm] = useState('')
   return (
@@ -15,9 +18,11 @@ const App = () => {
           
         </header>
         {/* <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} /> */}
-        <Step3 />
-        <Search />
-        <DepartmentForm />
+        {/* <Step3 /> */}
+        {/* <Search /> */}
+        {/* <DepartmentForm /> */}
+        {/* <BudgetAllocation /> */}
+        <ResourceAllocation />
       </div>
     </main>
     
